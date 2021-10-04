@@ -1,0 +1,61 @@
+
+
+.headingWrapper h3{
+    color: #00c1cf;
+}
+.headingWrapper h1 {
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.blogArticWrap{
+    width:40ch;
+    border-radius: 20px;
+}
+.blogArticWrap h1{
+    color: #00c1cf;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.75rem;
+}
+.blogArticWrap h1:hover {
+    color: #fff;
+}
+.blogArticWrap p {
+    color: #fff;
+    text-align: center;
+}
+.btnPost button{
+    background-color: #00c1cf;
+    color: rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    border: none;
+}
+.btnPost button:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.65);
+}
+.contImg {
+    width: 20rem;
+    border-radius: 20px;
+    border-color: #00c1cf;
+}
+.btnPost{
+    width:100%;
+}
+@media (max-width: 850px) {
+    .contImg {
+        width: 90%;
+    }
+}
+@media(max-width:500px){
+    .btnPost {
+        width: 70%;
+    }
+}

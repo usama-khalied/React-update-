@@ -1,0 +1,43 @@
+.editableAbout h1{
+    color: #00c1cf;
+    width: 100%;
+}
+.editableAbout h3{
+    color: #fff;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.editableAbout p{
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.75rem 0;
+    text-align: left;
+}
+
+.artH1{
+    color: #00c1cf;
+}
+.btnReadMore{
+    background-color: #00c1cf;
+    border-radius: 20px;
+    border-color: #00c1cf;
+}
+.aboutImg {
+    border-radius: 2rem;
+}
+
+@media (max-width: 850px) {
+    .container02 {
+        flex-direction: column;
+    }
+    .box1 {
+        width: 80%;
+        text-align: center;
+    }
+    .aboutImg {
+        width: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="https://kit.fontawesome.com/6fcb08b902.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.cs">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script>
+      var testimonial_slider = new Swiper(".testimonial-slider", {
+    loop: true,
+    speed: 800,
+    autoplay: {
+        delay: 3000,
+    },
+    navigation: {
+        nextEl: '.testimonial-nav-right',
+        prevEl: '.testimonial-nav-left',
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 1,
+        },
+        767.98: {
+            slidesPerView: 1,
+        },
+        1150: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+        },
+    }
+});
+
+var client_slider = new Swiper(".client-slider", {
+    loop: true,
+    speed: 800,
+    autoplay: {
+        delay: 3000,
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 2,
+        },
+        767.98: {
+            slidesPerView: 2,
+        },
+        991.98: {
+            slidesPerView: 4,
+        },
+    }
+});
+    </script>
+  </body>
+</html>
