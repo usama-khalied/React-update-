@@ -60,12 +60,12 @@ const Slider = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <div className="single-client">
-                <a href="#"><img src="assets/images/client-img.png" alt="image"/></a>
+                {/* <a href="#"><img src="assets/images/client-img.png" alt="image"/></a> */}
               </div>
             </div>
             <div className="swiper-slide">
               <div className="single-client">
-                <a href="#"><img src="assets/images/client-img.png" alt="image"/></a>
+                {/* <a href="#"><img src="assets/images/client-img.png" alt="image"/></a> */}
               </div>
             </div>
           </div>
