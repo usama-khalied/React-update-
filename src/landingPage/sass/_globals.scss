@@ -1,7 +1,7 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; font-weight: inherit; }
 
-html { font-size: 62.5%; overflow-x: hidden; }
+html { font-size: 100%; overflow-x: hidden; }
 
 body { font-family: Montserrat, sans-serif; box-sizing: border-box; font-weight: 500 !important;  background-color: $body-color;}
 
@@ -10,13 +10,13 @@ a{ text-decoration: none !important; }
 .h1-heading{ font-weight: 700 !important; font-size: 6rem; 
   &.dark{ color: $heading-dark; }
 }
-.h2-heading{ font-size: 4rem; font-weight: 700 !important; 
+.h2-heading{ font-size: 3rem; font-weight: 700 !important; 
   &.dark{ color: $heading-dark; }
 }
-.paragraph{ font-size: 2rem; line-height: 3.4rem; font-weight: 400 !important;
+.paragraph{ font-size: 1.2rem; line-height: 3.4rem; font-weight: 400 !important;
   &.light{ color: $paragraph-light; }
   &.small{ font-size: 1.4rem; line-height: 2.4rem; }
-  &.large{ font-size: 2.4rem; line-height: 4rem;  }
+  &.large{ font-size: 1.5rem; line-height: 2rem;  }
 }
 .heading-margin{ margin-left: 8.5rem; }
 .h3-heading{ font-size: 2rem; line-height: 3rem; font-weight: 600 !important;

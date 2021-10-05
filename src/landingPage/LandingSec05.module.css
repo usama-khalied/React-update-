@@ -6,6 +6,7 @@
     z-index: 0;
 }
 .h1-heading.dark {
+    font-size: 2rem;
     color: #29282c;
 }
 .cta__bg > div {
@@ -41,9 +42,9 @@
     text-align: center;
 }
 .cta__info .button {
-    min-width: 25.1rem;
+    min-width: 20.1rem;
     text-align: center;
-    height: 6.4rem;
+    height: 4rem;
     background-color: transparent;
     color: #fa98d7;
     border: 2px solid #fa98d7;

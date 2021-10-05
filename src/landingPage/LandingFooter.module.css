@@ -1,6 +1,6 @@
 .footer {
     width: 100vw;
-    padding: 15rem 30em ;
+    padding: 12rem 10em 0;
     background-color: #6c43f8;
     position: relative;
     overflow: hidden;
@@ -41,7 +41,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
- 
+ justify-content: space-around;
     
     z-index: 100;
     position: relative;
@@ -62,7 +62,7 @@
     left: 2.5rem;
 }
 .footer__wrapper-single li a {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #fff;
     font-weight: 400 !important;
     -webkit-transition: all 0.25s ease;
@@ -72,7 +72,7 @@
     color: #fa98d7;
 }
 .footer__wrapper-single li:first-child {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     letter-spacing: 1px;
     font-weight: bold !important;
@@ -80,7 +80,7 @@
     margin-bottom: 6.3rem;
 }
 .footer__wrapper-single h5 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     letter-spacing: 1px;
     font-weight: bold !important;
@@ -89,9 +89,9 @@
 }
 .footer__wrapper-single--1 p,
 .footer__wrapper-single--1 a {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: #fff;
-    line-height: 3rem;
+    line-height: 2rem;
     margin-bottom: 2rem;
     font-weight:lighter !important;
     width: 80%;
@@ -100,8 +100,8 @@
     margin: 4rem 0;
 }
 .footer__wrapper-single--4 .input {
-    width: 27.1rem;
-    height: 6.4rem;
+    width: 20.1rem;
+    height: 4rem;
     position: relative;
 }
 .footer__wrapper-single--4 .input input {
@@ -112,27 +112,27 @@
     height: 100%;
     outline: none;
     padding-left: 2.8rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 400 !important;
 }
 .footer__wrapper-single--4 .input input::-webkit-input-placeholder {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 400 !important;
 }
 .footer__wrapper-single--4 .input input::-moz-input-placeholder {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 400 !important;
 }
 .footer__wrapper-single--4 .input input::-ms-input-placeholder {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 400 !important;
 }
 .footer__wrapper-single--4 .input input:-moz-input-placeholder {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 400 !important;
 }
@@ -140,7 +140,7 @@
     position: absolute;
     right: 2rem;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -153,7 +153,7 @@
     position: relative;
 }
 .footer__copy h6 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #c2b5ed;
     font-weight: 400 !important;
   

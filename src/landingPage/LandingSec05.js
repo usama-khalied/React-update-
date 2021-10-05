@@ -12,8 +12,8 @@ export const Sec05 = () => {
     <div className="container">
       <div className="row">
         <div className="cta__info">
-          <h1 className="h1-heading dark">Interested in Collaboration?</h1>
-          <a href="#" className="button"><span>LET'S TALK</span></a>
+          <h1 className="text-3xl mb-16 bold">Interested in Collaboration?</h1>
+          <a href="#" className="rounded-full bg-purple-500 transition hover:bg-pink-400 hover:text-white outline-white px-12 py-6 "><span>LET'S TALK</span></a>
         </div>
       </div>
     </div>
